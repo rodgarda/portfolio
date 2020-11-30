@@ -1,0 +1,29 @@
+
+<div class="ae-grid au-xs-ta-center au-mb-8">
+    <div  *ngFor="let persona of infoService.equipo" class="animated fadeIn ae-grid__item item-lg-12 ae-kappa au-mb-3">
+        <img src="{{persona.url}}" alt="" class="au-mb-3">
+        <h5 class="ae-u-bolder au-mt-2">{{persona.nombre}}</h5>
+        <p class="ae-u-bolder au-mb-3">{{persona.subtitulo}}</p>
+        <p class="au-lg-ta-center au-mb-3 au-pl-4 au-pr-4">{{persona.frase}}</p>
+        <a target="_blank" href="http://twitter.com/{{persona.twitter}}" class="ae-u-bolder au-underline">{{persona.twitter}}</a>
+    </div>
+</div>
+<div class="ae-grid ae-grid--alt au-xs-ptp-1">
+    <div class="ae-grid__item--alt item-lg-4">
+    <h6 class="ae-u-boldest">About Me</h6>
+    <p class="au-lh-3">I am a software developer and analyst with more than 20 years of experience in the ICT sector</p>
+    <p class="au-lh-3">Father with 7 year of experience</p>
+    </div>
+    <div class="ae-grid__item--alt item-lg-4">
+    <h6 class="ae-u-boldest">Projects</h6>
+    <p class="au-lh-3">  A planning working hours application in the healthcare field with more than 1000 users</p>
+    </div>
+    <div class="ae-grid__item--alt item-lg-4">
+    <h6 class="ae-u-boldest">My Target</h6>
+    <p class="au-lh-3">Learn, enjoy, solve the problem and be part of something</p>
+    </div>
+</div>
+<p class="au-flex au-pt-4 group-buttons"><a  routerLink="/home" class="au-mt-4 arrow-button arrow-button--right arrow-button--out">View Our Portfolio<span class="arrow-cont">
+<svg>
+<use xlink:href="assets/img/symbols.svg#arrow"></use>
+</svg></span></a></p>

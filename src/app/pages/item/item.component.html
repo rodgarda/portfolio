@@ -1,0 +1,42 @@
+<div *ngIf="curso">
+    <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
+        <div class="ae-grid ae-grid--collapse au-xs-ptp-0">
+            <div class="ae-grid__item item-lg-4 "><img src="assets/img/cursos_item/{{curso.Imagen}}.jpg" alt="Curso{{curso.Id}}">
+            </div>
+            <div class="ae-grid__item  item-lg-8 au-lg-ptp-1">
+                <h4 class="ae-u-bolder">Nombre: {{curso.Curso}}</h4>
+                <p class="ae-eta">Año: {{curso.Anno}}</p>
+                <p class="ae-eta">Horas: {{curso.Horas}}</p>
+            </div>
+        </div>
+    </div>
+    <!--<div class="ae-grid ae-grid--collapse">
+        <div class="ae-grid__item item-lg-8"><img src="assets/img/cursos/{{curso.Imagen}}.jpg" alt="Urku Portfolio"></div>
+    </div>-->
+</div>
+
+<div *ngIf="aptitud">
+    <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
+        <div class="ae-grid ae-grid--collapse au-xs-ptp-0">
+            <div class="ae-grid__item item-lg-4 "><img src="assets/img/aptitudes_item/{{aptitud.Imagen}}.jpg" alt="Aptitud{{aptitud.Id}}">
+            </div>
+            <div class="ae-grid__item item-lg-8 au-lg-ptp-1">
+                <h4 class="ae-u-bolder">Area: {{aptitud.Area}}</h4>
+                <p class="ae-eta">Description: {{aptitud.Descripcion}}</p>
+            </div>
+        </div>
+        <!--<div class="ae-grid ae-grid--collapse">
+        <div class="ae-grid__item item-lg-8"><img src="assets/img/cursos/{{curso.Imagen}}.jpg" alt="Urku Portfolio"></div>
+        </div>-->
+    </div>
+</div>
+<div class="ae-container-fluid au-pt-2 au-pb-1">
+    <div (click)="gimeItem(this.componente,(this.id -1 + 2))" class="group-buttons">
+        <a  class="au-mt-2 arrow-button arrow-button--right">Next Item
+        </a>
+    </div>
+    <div (click)="gimeItem(this.componente,this.id-1)" class="group-buttons">
+        <a  class="au-mt-2  arrow-button arrow-button--left "> Last Item
+        </a>
+    </div>
+</div>

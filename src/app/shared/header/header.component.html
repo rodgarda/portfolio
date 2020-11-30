@@ -1,0 +1,57 @@
+<header class="ae-container-fluid ae-container-fluid--full rk-header ">
+    <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
+    <label for="mobile-menu">
+      <svg>
+        <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+        <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+        <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+    </label>
+    <div class="ae-container-fluid rk-topbar">
+      <h1 class="rk-logo"><a *ngIf="_infoService.cargada" routerLink="home">{{_infoService.info.titulo }}<sup>tm</sup></a></h1>
+      <nav class="rk-navigation">
+        <ul class="rk-menu">
+          <li routerLinkActive="active" class="rk-menu__item"><a routerLink="home" class="rk-menu__link">Home</a>
+          </li>
+          <li routerLinkActive="active" class="rk-menu__item"><a  routerLink="curriculum" class="rk-menu__link">Education</a>
+          </li>
+          <li routerLinkActive="active" class="rk-menu__item"><a  routerLink="cursos" class="rk-menu__link">Courses</a>
+          </li>
+          <li routerLinkActive="active" class="rk-menu__item"><a  routerLink="aptitudes" class="rk-menu__link">Skills</a>
+          </li>
+          <!--<li class="rk-menu__item"><a href="#0" class="rk-menu__link">Juegos</a>
+            <nav class="rk-menu__sub">
+              <ul class="rk-container">
+                <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
+                <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
+                <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
+              </ul>
+            </nav>
+          </li>-->
+          <li routerLinkActive="active" class="rk-menu__item"><a  routerLink="about" class="rk-menu__link">Profile</a>
+          </li>
+          
+          <ng-template #EliminiarBusq>
+            <li routerLinkActive="active" class="rk-menu__item"><a  (click)="eliminarBusqueda()" class="rk-menu__link">delete search</a>
+            </li>
+        </ng-template>
+        </ul>
+        <div *ngIf="buscando==false; else EliminiarBusq" class="rk-search">
+          <input type="text" 
+          (keyup.enter)="buscarItems(txtBuscar.value)"
+          placeholder="Search..." id="busqueda" class="rk-search-field"
+          #txtBuscar>
+          <label for="busqueda">
+            <svg>
+              <use xlink:href="assets/img/symbols.svg#icon-search"></use>
+            </svg>
+          </label>
+        </div>
+        
+      </nav>
+    </div>
+  </header>

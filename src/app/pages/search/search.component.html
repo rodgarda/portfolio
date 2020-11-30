@@ -1,0 +1,24 @@
+
+<div   class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
+  <div  *ngIf="cursosServ.cursosFilt" class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
+    <a *ngFor="let curso of cursosServ.cursosFilt" [routerLink]="['/item','cursos',curso.Id]" href="portfolio-item.html" class="rk-item ae-masonry__item">
+      <img src="assets/img/cursos/{{curso.Imagen}}.jpg" alt="">
+      <h6>{{curso.Curso}}</h6>
+    </a>
+    </div>
+  <div  *ngIf="aptitudesServ.aptitudesFilt" class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
+    <a *ngFor="let aptitud of aptitudesServ.aptitudesFilt" [routerLink]="['/item','aptitudes',aptitud.Id]" href="portfolio-item.html"  class="rk-item ae-masonry__item">
+      <img src="assets/img/aptitudes/{{aptitud.Imagen}}.jpg" alt="">
+      <h5>{{aptitud.Descripcion}}</h5>
+    </a>
+  </div>
+</div>
+<div class="ae-container-fluid au-pt-2 au-pb-1">
+  <div (click)="returnPage()" class="group-buttons">
+      <a  class="au-mt-2  arrow-button arrow-button--left "> Return
+      </a>
+  </div>
+</div>
+
+
+
