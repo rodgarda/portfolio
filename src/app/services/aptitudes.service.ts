@@ -28,7 +28,7 @@ export class AptitudesService {
 
   public getAptitud(id: number){
     //Creo este observable
-    return this.http.get(`http://angular-portfolio-bb9c7.firebaseio.com/aptitudes/${id}.json`)
+    return this.http.get(`https://angular-portfolio-bb9c7.firebaseio.com/aptitudes/${id}.json`)
     //return this.http.get('./assets/data/aptitudes.json')
   }
 
