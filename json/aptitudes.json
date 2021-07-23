@@ -1,1 +1,181 @@
-[{"Area":"Ofimática","Descripcion":"Microsoft Excel","Imagen":"excel"},{"Area":"Ofimática","Descripcion":"Microsoft Access","Imagen":"access"},{"Area":"Ofimática","Descripcion":"Microsoft Word","Imagen":"word"},{"Area":"Ofimática","Descripcion":"Microsoft Powerpoint","Imagen":"powerpoint"},{"Area":"Desarrollo","Descripcion":"Visual Basic 6","Imagen":"vb6"},{"Area":"Base de Datos","Descripcion":"Mysql","Imagen":"mysql"},{"Area":"Base de Datos","Descripcion":"Oracle 11g","Imagen":"oracle"},{"Area":"Desarrollo","Descripcion":"Html","Imagen":"html"},{"Area":"Desarrollo","Descripcion":"CSS","Imagen":"html"},{"Area":"Desarrollo","Descripcion":"Javascript","Imagen":"js"},{"Area":"Desarrollo","Descripcion":"NodeJs","Imagen":"node"},{"Area":"Desarrollo","Descripcion":"Api Rest","Imagen":"api"},{"Area":"Desarrollo","Descripcion":"Angular","Imagen":"angular"},{"Area":"Desarrollo","Descripcion":"Asp Classic","Imagen":"aspclassic"},{"Area":"Windows 10","Descripcion":"Windows 10","Imagen":"win10"},{"Area":"Desarrollo","Descripcion":"Sqldeveloper","Imagen":"sqldeveloper"},{"Area":"Comunicaciones","Descripcion":"Telefonia Ip","Imagen":"voip"},{"Area":"Gestion","Descripcion":"Capacidad de Gestión","Imagen":"gestion"},{"Area":"Desarrollo","Descripcion":"Gestión de Proyectos","Imagen":"proyectos"},{"Area":"Desarrollo","Descripcion":"Gestión de Procesos","Imagen":"procesos"},{"Area":"Desarrollo","Descripcion":"Analisis de Desarrollos","Imagen":"analisis"},{"Area":"Desarrollo","Descripcion":"Juegos","Imagen":"pengui"},{"Area":"Desarrollo","Descripcion":"Typescript","Imagen":"typescript"},{"Area":"Desarrollo","Descripcion":"Scrum","Imagen":"scrum"},{"Area":"Formacion","Descripcion":"Mas de 260 horas como docente en Areas relacionadas con la TICS","Imagen":"docencia"}]
+[ {
+  "Area" : "Formacion",
+  "Descripcion" : "Mas de 250 horas de docencia",
+  "Id" : "0",
+  "Imagen" : "docencia"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Visual Basic 6",
+  "Id" : "1",
+  "Imagen" : "vb6"
+}, {
+  "Area" : "Base de Datos",
+  "Descripcion" : "Mysql",
+  "Id" : "2",
+  "Imagen" : "mysql"
+}, {
+  "Area" : "Base de Datos",
+  "Descripcion" : "Oracle 11g",
+  "Id" : "3",
+  "Imagen" : "oracle"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Html",
+  "Id" : "4",
+  "Imagen" : "html"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Sqldeveloper",
+  "Id" : "5",
+  "Imagen" : "sqldeveloper"
+}, {
+  "Area" : "Comunicaciones",
+  "Descripcion" : "Telefonia Ip",
+  "Id" : "6",
+  "Imagen" : "voip"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Capacidad de Gestión",
+  "Id" : "7",
+  "Imagen" : "gestion"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Gestión de Proyectos",
+  "Id" : "8",
+  "Imagen" : "proyectos"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Gestión de Procesos",
+  "Id" : "9",
+  "Imagen" : "procesos"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Analisis de Desarrollos",
+  "Id" : "10",
+  "Imagen" : "analisis"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "CSS",
+  "Id" : "11",
+  "Imagen" : "html"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Javascript",
+  "Id" : "12",
+  "Imagen" : "js"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "NodeJs",
+  "Id" : "13",
+  "Imagen" : "node"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Api Rest",
+  "Id" : "14",
+  "Imagen" : "api"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Angular",
+  "Id" : "15",
+  "Imagen" : "angular"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Asp Classic",
+  "Id" : "16",
+  "Imagen" : "aspclassic"
+}, {
+  "Area" : "Windows 10",
+  "Descripcion" : "Windows 10",
+  "Id" : "17",
+  "Imagen" : "win10"
+}, {
+  "Area" : "Ofimática",
+  "Descripcion" : "Microsoft Excel",
+  "Id" : "18",
+  "Imagen" : "excel"
+}, {
+  "Area" : "Ofimática",
+  "Descripcion" : "Microsoft Access",
+  "Id" : "19",
+  "Imagen" : "access"
+}, {
+  "Area" : "Ofimática",
+  "Descripcion" : "Microsoft Word",
+  "Id" : "20",
+  "Imagen" : "word"
+}, {
+  "Area" : "Ofimática",
+  "Descripcion" : "Microsoft Powerpoint",
+  "Id" : "21",
+  "Imagen" : "powerpoint"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Juegos",
+  "Id" : "22",
+  "Imagen" : "pengui"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Typescript",
+  "Id" : "23",
+  "Imagen" : "typescript"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "Scrum",
+  "Id" : "24",
+  "Imagen" : "scrum"
+}, {
+  "Area" : "Desarrollo",
+  "Descripcion" : "design thinking",
+  "Id" : "25",
+  "Imagen" : "desing"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Método Lean",
+  "Id" : "26",
+  "Imagen" : "lean"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Aritmetica",
+  "Id" : "27",
+  "Imagen" : "trucos_aritmetica"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Mapas Mentales",
+  "Id" : "28",
+  "Imagen" : "mapas_metales"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Bussines English",
+  "Id" : "29",
+  "Imagen" : "Bussines_english"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Mejora Disciplina",
+  "Id" : "30",
+  "Imagen" : "disciplina"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Seguridad Informacion",
+  "Id" : "31",
+  "Imagen" : "seguridad_info"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Toma de decisiones",
+  "Id" : "32",
+  "Imagen" : "toma_decisiones"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "RGPD",
+  "Id" : "33",
+  "Imagen" : "rgpd"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Teletrabajo y equipos virtuales",
+  "Id" : 34,
+  "Imagen" : "teletrabajo"
+}, {
+  "Area" : "Gestion",
+  "Descripcion" : "Microsoft 365 Teams",
+  "Id" : 35,
+  "Imagen" : "teams"
+} ]
